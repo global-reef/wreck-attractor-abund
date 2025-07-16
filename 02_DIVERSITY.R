@@ -159,6 +159,8 @@ shannon_trends <- function(data, pair_name, deployment_date = as.Date("2023-09-0
 aowmao_shannon <- shannon_trends(shannon_data, pair_name = "Aow Mao")
 noname_shannon <- shannon_trends(shannon_data, pair_name = "No Name")
 
+print(aowmao_shannon$plot)
+print(noname_shannon$plot)
 
 ### full model (add random effect for site) ####
 # Fit the mixed model

@@ -1,5 +1,6 @@
 ### exploratory analysis 
 library(dplyr)
+library(ggplot2)
 
 
 # total abund between reef types 
